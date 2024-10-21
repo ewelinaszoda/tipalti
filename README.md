@@ -10,7 +10,7 @@ You are free to make changes to the template but please be aware that those revi
 
 ## Usage
 
-To use the repository for your challenge submission, please clone the repository and create a new repository on your own Github account . Please DO NOT try to push branches, make pull requests  or fork the original source template repository.
+To use the repository for your challenge submission, please clone the repository and create a new repository on your own Github account . Please DO NOT try to push branches, make pull requests or fork the original source template repository.
 
 ### Installation
 
@@ -19,3 +19,7 @@ From the root folder, run `npm install` to install all required dependencies.
 ### Running Locally
 
 From the root folder, run `npm run dev` to run a local server with hot reloading.
+
+### Screenshot
+
+![alt text](image.png)

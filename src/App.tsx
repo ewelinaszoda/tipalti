@@ -1,10 +1,13 @@
-function App() {
+import React from "react";
+import ExpensesTable from "./components/ExpensesTable";
+
+const App: React.FC = () => {
   return (
-    <div id="template-text">
-      <h1>React Starter Template</h1>
-      <p>A lightweight React starter template in TypeScript and Vite</p>
+    <div className="container">
+      <h1>Expenses</h1>
+      <ExpensesTable />
     </div>
   );
-}
+};
 
 export default App;

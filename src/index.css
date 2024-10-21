@@ -20,6 +20,8 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  font-family: Arial, sans-serif;
+  padding: 20px;
 }
 /*
   5. Improve media defaults
@@ -76,4 +78,62 @@ h6 {
 a {
   color: #0070f3;
   text-decoration: none;
+}
+
+.expenses-table {
+  width: 100%;
+  border-spacing: 0;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.expenses-table th,
+.expenses-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.expenses-table th {
+  background-color: #f8f8f8;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+.expenses-table th:not(:last-child),
+.expenses-table td:not(:last-child) {
+  border-right: 1px solid #e0e0e0;
+}
+
+.expenses-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+
+}
+
+@media (max-width: 768px) {
+  .expenses-table {
+    font-size: 14px;
+  }
+
+  .expenses-table th,
+  .expenses-table td {
+    padding: 8px 10px;
+  }
 }
